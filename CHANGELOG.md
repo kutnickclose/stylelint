@@ -1,5 +1,12 @@
 # Changelog
 
+## 15.0.0
+
+- Change: `extends` in `overrides` to merge to be consistent with `plugins` behaviour ([#6380](https://github.com/stylelint/stylelint/pull/6380)) ([@jasikpark](https://github.com/jasikpark)). (BREAKING)
+- Removed: `syntax` option ([#6420](https://github.com/stylelint/stylelint/pull/6420)) ([@fpetrakov](https://github.com/fpetrakov)). (BREAKING)
+- Fixed: `declaration-block-no-redundant-longhand-properties` false positives for `inherit` keyword ([#6419](https://github.com/stylelint/stylelint/pull/6419)) ([@kimulaco](https://github.com/kimulaco)).
+- Fixed: `shorthand-property-no-redundant-values` message to be consistent ([#6417](https://github.com/stylelint/stylelint/pull/6417)) ([@fpetrakov](https://github.com/fpetrakov)).
+
 ## 14.14.0
 
 - Added: `*-pattern` custom message formatting ([#6391](https://github.com/stylelint/stylelint/pull/6391)) ([@ybiquitous](https://github.com/ybiquitous)).
